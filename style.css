@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px white solid;
+
+}
+.logo{
+    height: 80px;
+}
+.brand-name{
+    color: white;
+}
+.navi{
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+@media screen and (max-width:800px) {
+    .navi-container{
+        display: none;
+    }
+    
+}
+.intro{
+    background-color: black;
+    height: 500px;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    flex-direction: row;
+
+}
+.intro-first-colom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wtp{
+    color: white;
+}
+.intro-first-colom p{
+    color: white;
+    text-align: center;
+    
+    
+}
